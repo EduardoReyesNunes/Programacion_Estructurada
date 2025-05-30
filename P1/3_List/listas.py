@@ -38,5 +38,15 @@ while resp=="si":
 
     print("Tu lista final fue ",listapl)
 
-#Ejemplo 4 crear un alista multidimencional (Matriz) que almacene el nombre y telefono de 4 personas
+# Lista multidimensional con nombre y teléfono de 4 personas
+personas = [
+    ["Ana", "618-1234567"],
+    ["Luis", "618-5678901"],
+    ["María", "6189012345"],
+    ["Carlos", "6183456789"]
+]
+
+# Mostrar la información
+for persona in personas:
+    print(f"Nombre: {persona[0]}, Teléfono: {persona[1]}")
 
